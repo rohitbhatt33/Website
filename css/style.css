@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+  
+}
+
+.nav-list {
+    width: 70%;
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 16px 30px;
+
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.nav-list li a:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+.rightnav {
+    padding: 0 23px;
+    width: 30%;
+    text-align: right;
+
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 40%;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 9px;
+    border: 2px solid grey;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('../img/emma-harrisova-UDsO83Ts6tQ-unsplash.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.box-main {
+    justify-self: center;
+    align-items: center;
+    display: flex;
+    color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.firstsection {
+    height: 100vh;
+
+}
+
+.firsthalf {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondhalf {
+    width: 30%;
+}
+
+.secondhalf img {
+    width: 70%;
+    border-radius: 150px;
+    border: 4px solid white;
+    display: block;
+    margin: auto;
+}
+
+.text-big {
+    font-size: 27px;
+}
+
+.text-small {
+    font-size: 18px;
+}
+
+.btn {
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    background: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.btn-sm {
+    vertical-align: middle;
+    padding: 6px 10px;
+    font-size: 16px;
+
+}
+
+.btn-dark {
+    color: black;
+    border: 2px solid grey;
+   
+}
+
+.section {
+    justify-content: space-evenly;
+    align-items: center;
+    
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    font-family: 'Ubntu', sans-serif;
+}
+
+.paras {
+    padding: 0 65px;
+}
+
+.left {
+    flex-direction: row-reverse;
+}
+
+.sectionsubtag {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact {
+    background-color: antiquewhite;
+    height: 833px;
+
+}
+
+.text-center {
+    text-align: center;
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-size: 35px;
+}
+
+.form {
+    max-width: 1200px;
+    margin: 25px auto;
+}
+
+.form-input {
+    margin: 14px 0;
+    padding: 5px 3px;
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.text-footer{
+    text-align: center;
+    padding: 30px 0;
+    color: aliceblue;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+.burger{
+ position: absolute;
+ cursor: pointer;
+ right: 5%;
+ top: 15px;
+ display: none;
+}
+.thumbnail img{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-top:19px ;
+}
+.line{
+    width: 33px;
+    background-color: antiquewhite;
+    height: 4px;
+    margin: 5px 3px;
+}
+    
